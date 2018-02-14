@@ -6,3 +6,6 @@ leftmotor = 1
 while True:
   if RPL.readDistance(rightsensor) < 70000:
     RPL.servoWrite(rightmotor,2000)
+  else:
+    RPL.servoWrite(rightmotor,0)
+ 
