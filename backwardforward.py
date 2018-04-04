@@ -5,7 +5,7 @@ x = 0
 while x <= 5:
     start = time.time
     z = 7
-    while z = 7:
+    while z == 7:
         current = time.time
         if current - start < 50:
             RPL.servoWrite(1,500)
